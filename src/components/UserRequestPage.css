@@ -1,0 +1,57 @@
+.user-request-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-request-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user-request-page .error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-request-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-request-page li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.user-request-page li span {
+    flex: 1;
+    text-align: center;
+}
+
+.user-request-page li .status {
+    font-weight: bold;
+}
+
+.user-request-page li .status.approved {
+    color: green;
+}
+
+.user-request-page li .status.rejected {
+    color: red;
+}
+
+.user-request-page li .status.pending {
+    color: orange;
+}

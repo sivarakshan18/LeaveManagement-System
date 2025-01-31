@@ -1,0 +1,42 @@
+/* LeaveStatus.css */
+.leave-status-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.leave-status-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.leave-status-form select, .leave-status-form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.leave-status-form select:focus, .leave-status-form button:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.leave-status-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.leave-status-form button:hover {
+    background-color: #0056b3;
+}

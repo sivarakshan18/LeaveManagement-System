@@ -1,0 +1,75 @@
+/* LeaveList.css */
+.leave-list {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.leave-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.leave-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leave-list li {
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leave-list li:last-child {
+    border-bottom: none;
+}
+
+.leave-list li:nth-child(odd) {
+    background-color: #e9ecef;
+}
+
+.leave-list li span {
+    flex: 1;
+    text-align: center;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.status.pending {
+    background-color: #ffc107;
+}
+
+.status.approved {
+    background-color: #28a745;
+}
+
+.status.rejected {
+    background-color: #dc3545;
+}
+
+.leave-list button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+}
+
+.leave-list button:hover {
+    background-color: #0056b3;
+}
